@@ -1,0 +1,25 @@
+{
+  "name": "mfmemo-app",
+  "version": "1.0.0",
+  "description": "MFMemo - AI-Powered MFM Report Analyzer",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "RME",
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
+    "canvas": "^3.2.1",
+    "dompurify": "^3.3.1",
+    "mammoth": "^1.11.0",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^5.4.530",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "vite": "^7.3.1"
+  }
+}
