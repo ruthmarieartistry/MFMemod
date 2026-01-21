@@ -186,17 +186,20 @@ Be thorough and specific. Include actual numbers, measurements, and medical term
             <>
               {/* Logo/Branding */}
               <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-                <div style={{
-                  display: 'inline-block',
-                  background: `linear-gradient(135deg, ${darkTeal} 0%, ${rubyRed} 100%)`,
-                  WebkitBackgroundClip: 'text',
-                  WebkitTextFillColor: 'transparent',
-                  fontSize: '48px',
-                  fontWeight: '700',
-                  marginBottom: '5px'
-                }}>
-                  MFM
-                </div>
+                <img
+                  src="/mfmemo-logo.png"
+                  alt="MFMemo"
+                  style={{
+                    height: '80px',
+                    marginBottom: '15px',
+                    display: 'block',
+                    marginLeft: 'auto',
+                    marginRight: 'auto'
+                  }}
+                  onError={(e) => {
+                    e.target.style.display = 'none';
+                  }}
+                />
                 <div style={{
                   fontSize: '14px',
                   color: '#6b7280',
